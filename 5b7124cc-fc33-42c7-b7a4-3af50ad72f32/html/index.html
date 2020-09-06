@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--TYPOGRAPHY-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
+<!--CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+<!--BOOSTRAP-->    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--MY JS-->    
+    <script defer src="../js/index.js"></script>
+    <title>Thirsty</title>
+</head>
+<body>
+
+ <!--NAVBAR-->
+    <div class="calc-container">
+        <img class="logo-img" src="../img/logo.png">
+        <h1 class="logo">THIRSTY</h1>
+        <p class="slogan">THE MEETUP APP</p>
+    </div>
+
+<!--INPUTS-->   
+    <div class="card text-center">
+        <div class="card-header"></div>
+        <div class="card-body">
+            <div>
+                <p class="card-title">Bienvenidos a la app de Santander <br> Ingresa tus datos</p>
+                <div id="inputDate"></div>
+                <input type="text" class="form-control mb-2" id="user" placeholder="Usuario">
+                <input type="password" class="form-control mb-2" id="pass" placeholder="Contaseña">
+                <p id="incomplete-field"></p>
+                <button type="submit" class="btn-calc btn btn-outline-danger" id="submit-btn">Log in</button>
+            </div>
+        </div>
+        <div class="card-footer"></div>
+    </div>
+
+</body>
+</html>

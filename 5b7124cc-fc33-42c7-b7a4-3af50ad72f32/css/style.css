@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+/*NAVEGADOR*/
+
+.logo-img {
+    width: 40px;
+    margin-top: 15px;
+}
+
+.logo {
+    font-family: "Titillium Web", sans-serif;
+
+}
+
+.slogan {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+}
+
+/*LOG-IN*/
+
+.card, .text-center {
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.card-header, .card-footer {
+    background-color: #f78179;
+    background-image: linear-gradient(147deg, #f78179 0%, #FF2525 74%);
+}
+
+.card-title {
+    font-family: "Zilla Slab", serif;
+    font-size: 17px;
+}
+
+.wrongPass, .wrongUser, .wrongBoth {
+    color: red;
+    font-family: "Zilla Slab", serif;
+}
+
+#incomplete-field {
+    height: 24px;
+    margin: 10px 0 0;
+}
+
+.btn.btn-outline-danger {
+    padding: 0 10px;
+    margin: 20px;
+}
+
+/*CALCULADORA INPUTS - BUTTON*/
+
+.calc-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn-calc {
+    height: 40px;
+    width: 150px;
+    border: 1.5px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+/*WEATHER VIEW*/
+
+#incomplete-field {
+    font-family: "Zilla Slab", serif;
+    color: red;
+}
+
+.general-weather {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.owf-800 {
+    color: orange;
+}
+
+.city-name {
+    font-family: Raleway, sans-serif;
+}
+
+.degree {
+    font-family: Raleway, sans-serif;
+    color: red;
+}
+
+.recommend {
+    font-family: 'Bree Serif', serif;
+    margin: 5px 5px;
+}
+
+.temp-description {
+    font-family: "Zilla Slab", serif;
+    color: orange;
+    margin: 0px 40px 10px;
+}
+

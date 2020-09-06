@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--TYPOGRAPHY-->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
+<!--CSS-->
+    <link href="../owfont-master/css/owfont-regular.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../css/style.css">
+<!--BOOSTRAP-->    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--MY JS-->    
+    <script defer src="../js/clima.js"></script>
+    <title>Clima</title>
+</head>
+<body>
+
+ <!--INPUTS-->
+    <div class="calc-container">
+        <img class="logo-img" src="../img/logo.png">
+        <h1 class="logo">THIRSTY</h1>
+        <p class="slogan">THE MEETUP APP</p>
+    </div>
+
+    <div class="card text-center">
+        <div class="card-header"></div>
+        <div class="card-body">
+            <div>
+                <div id="inputDate"></div>
+                <input type="text" class="form-control mb-2" id="inputValue-city" placeholder="Ingresa una ciudad">
+                <select class="custom-select mr-sm-2" id="selectMoment">
+                    <option id= "defaultSelect"selected>Franja horaria</option>
+                    <option value="1">Mediodía</option>
+                    <option value="2">Tarde</option>
+                    <option value="3">Noche</option>
+                </select>
+                 <p id="incomplete-field"></p> 
+                <button type="submit" class="btn-calc btn btn-outline-danger" id="calc">Clima</button>
+            </div>
+        </div>
+        <div class="card-footer"></div>
+    </div>
+
+<!--CLIMA-->
+<div class="contenedor general-weather">
+    <div class="location">
+        <h1 class="location-timezone"></h1>
+    </div>
+    <div class="temperature">
+        <i id="weatherIcon" class="owf owf-3x"></i>
+        <h2 class="city-name"></h2>
+        <h2 class="degree"></h2>
+        <div p class="temp-description" id="temp-description"></div>
+    </div>
+</div>
+    
+</body>
+</html>
